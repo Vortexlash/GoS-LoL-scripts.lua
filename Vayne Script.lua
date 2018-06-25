@@ -4,7 +4,6 @@
 -- — Interrupt function;
 -- — Auto Level Up;
 
-
 if GetObjectName(GetMyHero()) ~= "Vayne" then return end
 
 if not pcall( require, "MapPositionGOS" ) then PrintChat("Check if you have Walls Library installed") return end
@@ -203,7 +202,6 @@ function LevelUp()
 		end
 	end
 end
-
 
 addInterrupterCallback(function(target, spellType, spell)
 	if VayneMenu.Interrupter.UseE:Value() then
