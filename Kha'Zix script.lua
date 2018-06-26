@@ -19,17 +19,16 @@ KhaZixMenu.Combo:Boolean("QKS", "Killsteal with Q", true)
 KhaZixMenu.Combo:Boolean("WKS", "Killsteal with W", true)
 KhaZixMenu.Combo:Slider("R", "R Settings", 3, 1, 5, 1)
 
-KhaZixMenu:Menu("JungleClear", "JungleClear")
+KhaZixMenu:MenuConfig("JungleClear", "JungleClear")
 KhaZixMenu.JungleClear:Boolean('UseQ', 'Use Q', true)
 KhaZixMenu.JungleClear:Boolean('UseW', 'Use W', true)
 KhaZixMenu.JungleClear:Boolean('UseE', 'Use E', true)
 
-KhaZixMenu:Menu("Misc", "Misc")
+KhaZixMenu:MenuConfig("Misc", "Misc")
 KhaZixMenu.Misc:Boolean('Level-Up', 'Level-Up', true)
 KhaZixMenu.Misc:DropDown('AutoLvlUp', 'Level Table', 1, {"Q-W-E"})
 KhaZixMenu.Misc:Slider('X','Minimum Enemies: R', 1, 0, 5, 1)
 KhaZixMenu.Misc:Slider('HP','HP-Manager: R', 40, 0, 100, 5)
-
 
 local KhaZixW = { delay = .5, range = 1000, width = 250, speed = 828.5 }
 local KhaZixE = { delay = .5, range = 900, width = 300, speed = 1300 }
