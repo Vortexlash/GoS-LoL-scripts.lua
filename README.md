@@ -1,4 +1,4 @@
-# GoS_Script_Set
+# GoS script set
 A complete utility scripts collection made in 2018.<br/>
 Just a friendly reminder: _overconfidence is a slow and insidious killer_.<br/>
 > A GoS group project, 2018.
