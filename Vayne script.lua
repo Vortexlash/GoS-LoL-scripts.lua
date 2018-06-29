@@ -8,7 +8,6 @@ if GetObjectName(GetMyHero()) ~= "Vayne" then return end
 
 if not pcall( require, "MapPositionGOS" ) then PrintChat("Check if you have Walls Library installed") return end
 if not pcall( require, "Inspired" ) then PrintChat("Check if you have Inspired.lua installed") return end
-if not pcall( require, "Deftlib" ) then PrintChat("Check if you have Deftlib.lua installed") return end
 if not pcall( require, "Interrupter" ) then PrintChat("Check if you have Interrupter.lua installed") return end
 if not pcall( require, "AntiDangerousSpells" ) then PrintChat("Check if you have AntiDangerousSpells.lua installed") return end
 
