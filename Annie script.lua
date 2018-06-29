@@ -7,7 +7,6 @@
 
 if GetObjectName(GetMyHero()) ~= "Annie" then return end
 
-if not pcall( require, "Deftlib" ) then PrintChat("Check if you have Deftlib.lua installed") return end
 if not pcall( require, "OpenPredict" ) then PrintChat("Check if you have OpenPredict.lua installed") return end
 
 PrintChat("Annie Script loaded successfully")
