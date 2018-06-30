@@ -27,3 +27,17 @@ Just a friendly reminder: _overconfidence is a slow and insidious killer_.<br/>
 — Jungle Clear function;
 — Auto Level Up;
 ```
+
+## Brand
+```
+— Combo management;
+— Mana management;
+— Lane Clear function;
+— Harass;
+— Kill Secure function;
+— Drawings;
+— Auto Level Up;
+```
+
+> _Change log:_<br/>
+— _30/06/18 — Brand script.lua added._<br/>
