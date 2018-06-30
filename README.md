@@ -33,7 +33,6 @@ Just a friendly reminder: _overconfidence is a slow and insidious killer_.<br/>
 — Combo management;
 — Mana management;
 — Lane Clear function;
-— Harass;
 — Kill Secure function;
 — Drawings;
 — Auto Level Up;
